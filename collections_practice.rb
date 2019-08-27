@@ -27,7 +27,8 @@ end
 def kesha_maker(arr)
  newArr=[] 
   arr.each do |word|
- 
+ word[2] = '$'
+ newArr.push(word)
  end
  newArr
 end 
