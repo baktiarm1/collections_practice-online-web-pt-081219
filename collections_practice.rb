@@ -36,7 +36,7 @@ end
 def find_a(arr)
   newArr=[]
   arr.each do |words|
-    if words.start_with? |'a'|
+    if words.start_with? 'a'
       newArr.push(words)
     end 
   end 
